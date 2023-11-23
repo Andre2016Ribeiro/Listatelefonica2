@@ -1,0 +1,84 @@
+Geral
+253470270 Geral
+Departamento Comercial PT
+253470271 Encomendas Norte
+253470272 Encomendas Sul
+253470273 Incidencias
+253470274 Gest Operacional PT
+253470275 Gest Mercado PT
+Departamento Comercial ES
+253470276 Gest Mercado ESP
+253470277 Comercial ESP
+Departamento Comercial INT
+253470637 Gest. Mercado Internacional Margarida Silva
+Marketing
+253470630 Marketing
+produto
+253470633 Gestor Insdustrial
+253470638 Gest. Montagem L1
+253470286 Gest.Oper Desenvolvimento
+253470635 Eng. Desenvolvimento
+253470636 Planeamento e Custos
+253470287 Gest Sup. Produtivo
+253470634 Compras
+Departamento Finance
+253470631 Gest. Financeira
+253470632 Gest.Sup. Institucional
+253470639 Apoio Contabilidade
+253470284 Dep.IT
+Linhas Montagent
+253470281 Linha Montagem 1
+253470282 Linha Montagem 2
+Ws
+253470283 Linha Montagem B
+253470278 Linha Montagem 4/9
+253470285 Reparações
+253470280 Recepção
+Geral
+Vitor
+Catarina Silva
+Sandra marques
+Margarida Gomes
+Ana Gomes
+Gorete Vieira
+Raquel
+Helena Rocha
+Marlene
+Andre Ribeiro
+Ruben/Melanie
+Paula/Margarida
+Beatriz
+Susana Marques
+Isabel Marques
+Isabel Ribeiro
+Ana Martins
+Cátia Fernandes
+João Pedro
+Bruno/João
+Marta/Carlos
+471
+472
+473
+474
+475
+476
+477
+437
+430
+433
+438
+486
+435
+436
+487
+434
+431
+432
+439
+484
+481
+482
+483
+478
+485
+480
