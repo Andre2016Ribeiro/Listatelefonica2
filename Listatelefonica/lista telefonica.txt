@@ -25,3 +25,4 @@
 24, 253 470 278, Linha Montagem 4/9, Joaquim, 478
 25, 253 470 285, Reparações, Bruno/João, 485
 26, 253 470 280, Recepção, Marta/Carlos, 480
+27, 253 711 400, Expedição, Rodrigo,

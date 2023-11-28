@@ -82,11 +82,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\Listatelefonica.Form1.resources" />
+    <EmbeddedResource Include="obj\Debug\Listatelefonica.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Release\Listatelefonica.Form1.resources" />
+    <EmbeddedResource Include="obj\Release\Listatelefonica.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -96,7 +102,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bin\Debug\Listatelefonica.application" />
+    <None Include="bin\Debug\Listatelefonica.exe.config" />
+    <None Include="bin\Debug\Listatelefonica.exe.manifest" />
+    <None Include="bin\Release\Listatelefonica.application" />
+    <None Include="bin\Release\Listatelefonica.exe.config" />
+    <None Include="bin\Release\Listatelefonica.exe.manifest" />
     <None Include="Listatelefonica_TemporaryKey.pfx" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Listatelefonica.application" />
+    <None Include="obj\Debug\Listatelefonica.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\Listatelefonica.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\Listatelefonica.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\Listatelefonica.exe.manifest" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\Listatelefonica.application" />
+    <None Include="obj\Release\Listatelefonica.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\Listatelefonica.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\Listatelefonica.csproj.GenerateResource.cache" />
+    <None Include="obj\Release\Listatelefonica.exe.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -123,7 +149,29 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="a.txt" />
+    <Content Include="bin\Debug\app.publish\Listatelefonica.exe" />
+    <Content Include="bin\Debug\lista telefonica.txt" />
+    <Content Include="bin\Debug\Listatelefonica.exe" />
+    <Content Include="bin\Debug\Listatelefonica.pdb" />
+    <Content Include="bin\Release\app.publish\Listatelefonica.exe" />
+    <Content Include="bin\Release\lista telefonica.txt" />
+    <Content Include="bin\Release\Listatelefonica.exe" />
+    <Content Include="bin\Release\Listatelefonica.pdb" />
     <Content Include="lista telefonica.txt" />
+    <Content Include="obj\Debug\lista telefonica.txt" />
+    <Content Include="obj\Debug\Listatelefonica.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Listatelefonica.exe" />
+    <Content Include="obj\Debug\Listatelefonica.pdb" />
+    <Content Include="obj\Release\lista telefonica.txt" />
+    <Content Include="obj\Release\Listatelefonica.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\Listatelefonica.exe" />
+    <Content Include="obj\Release\Listatelefonica.pdb" />
+    <Content Include="telemoveis.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

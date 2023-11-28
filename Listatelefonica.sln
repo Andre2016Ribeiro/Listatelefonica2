@@ -7,8 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listatelefonica", "Listatel
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{49B6F8DE-50D2-4E33-BF12-A9A67544DF1C}"
 	ProjectSection(SolutionItems) = preProject
-		Listatelefonica\lista telefonica.txt = Listatelefonica\lista telefonica.txt
-		Listatelefonica\bin\Debug\lista telefonica.txt = Listatelefonica\bin\Debug\lista telefonica.txt
+		Listatelefonica\bin\Debug\telemoveis.txt = Listatelefonica\bin\Debug\telemoveis.txt
 	EndProjectSection
 EndProject
 Global

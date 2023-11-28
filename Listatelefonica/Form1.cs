@@ -18,15 +18,22 @@ namespace Listatelefonica
             InitializeComponent();
         }
         string[] lineOfContents = File.ReadAllLines("lista telefonica.txt");
+        string[] lineOfContentstelemovel = File.ReadAllLines("telemoveis.txt");
 
         public void Form1_Load(object sender, EventArgs e)
         {
-            
-            
+
+
             foreach (var line in lineOfContents)
             {
                 string[] tokens = line.Split(',');
-                comboBox1.Items.Add(tokens[2] +"  -  "+ tokens[3]);
+                comboBox1.Items.Add(tokens[2] + "  -  " + tokens[3]);
+            }
+            foreach (var line in lineOfContentstelemovel)
+            { 
+                string[] tokenstelemovel = line.Split(',');
+                comboBox2.Items.Add(tokenstelemovel[2] + "  -  " + tokenstelemovel[3]);
+
             }
 
         }
@@ -52,6 +59,20 @@ namespace Listatelefonica
 
         }
 
-       
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var s = comboBox2.SelectedIndex.ToString();
+            foreach (var line in lineOfContentstelemovel)
+            {
+                
+                string[] tokenstelemovel = line.Split(',');
+                if (tokenstelemovel[0] == s)
+                {
+                    textBox1.Text = tokenstelemovel[3];
+                    textBox2.Text = tokenstelemovel[1];
+                    textBox3.Text = tokenstelemovel[4];
+                }
+            }
+        }
     }
 }
